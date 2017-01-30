@@ -1,0 +1,143 @@
+# oefentrials
+# nog even aanpassen. Alleen duidelijke verschillen. En voorbeeld van 3 condities.
+ zin11					zin12 			zin1code					zin21					zin22			zin2code				antw		trialcode;  
+ schouder				schouder		"schouderschouder"				oor					oor			"ooroor"				1		"scsc_oror";
+ heup					heup			"heupheup"					oor					oor			"ooroor"				1		"hphp_oror";
+ oor					oor			"ooroor"					heup					heup			"heupheup"				2		"oror_hphp";
+ oor					oor			"ooroor"					schouder				schouder		"schouderschouder"			2		"oror_scsc";
+ heup					heup			"heupheup"					oor					elleboog		"oorelleboog"				2		"hphp_orel";
+ oor					oor			"ooroor"					elleboog				elleboog		"elleboogelleboog"			2	  	"oror_elel";
+ heup					heup			"heupheup"					oor					elleboog		"oorelleboog"				2	  	"hphp_orel";
+ schouder				oor			"schouderoor"					oor					heup			"oorheup"				2	  	"scor_orhp";
+ heup					heup			"heupheup"					elleboog				oor			"elleboogoor"				2  		"hphp_elor";
+ heup					oor			"heupoor"					schouder				heup			"schouderheup"				1		"hpor_schp";
+ 
+  zin11					zin12 		zin1code						zin21						zin22			zin2code				antw		trialcode;  
+ #groep1
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ #groep 1
+  oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ #groep 1 
+  heup						heup			"heupheup"					enkel						enkel			"enkelenkel"				1	"hphp_enenHEg";
+  elleboog				elleboog		"elleboogelleboog"		enkel						enkel			"enkelenkel"				1	"elel_enenHE";
+  oor						oor			"ooroor"						schouder					schouder		"schouderschouder"		2	"oror_scscHE";
+  enkel					enkel			"enkelenkel"				oor						oor			"ooroor"						2	"enen_ororHD";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+  schouder				schouder		"schouderschouder"		heup						heup			"heupheup"					1	"scsc_hphpHDg";
+  schouder				schouder		"schouderschouder"		enkel						enkel			"enkelenkel"				1	"scsc_enenHE";
+ #groep1 
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+  elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+ oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ 
+ 
+ #groep2
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+  elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+  oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ #groep2
+   oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ #groep2
+  oor						oor			"ooroor"						knie						knie			"schouderschouder"		2	"oror_scscHD";
+  oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ #groep2
+  oor						oor			"ooroor"						knie						knie			"schouderschouder"		2	"oror_scscHD";
+  oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+  schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+  elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+  oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+  oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD"; 
+ }; 
+
+
+
+#blok 3
+TEMPLATE "pairs.tem" randomize { 
+ zin11					zin12 		zin1code						zin21						zin22			zin2code					antw	trialcode;  
+#groep3
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+ oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ elleboog				enkel			"elleboogenkel"			schouder					schouder		"schouderschouder"		1	"elen_scscMD";
+#groep3
+ oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+#groep3
+oor						oor			"ooroor"						knie						knie			"schouderschouder"		2	"oror_scscHD";
+ oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+#groep3
+ oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+
+ 
+}; 
+
+
+#blok 4
+TEMPLATE "pairs.tem" randomize { 
+ zin11					zin12 		zin1code						zin21						zin22			zin2code					antw	trialcode;  
+#groep4
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+ oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ elleboog				enkel			"elleboogenkel"			schouder					schouder		"schouderschouder"		1	"elen_scscMD";
+#groep4
+ oor						oor			"ooroor"						knie						knie			"schouderschouder"		2	"oror_scscHD";
+ oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+ oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ elleboog				enkel			"elleboogenkel"			schouder					schouder		"schouderschouder"		1	"elen_scscMD";
+#groep4
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ oor						elleboog		"oorelleboog"				enkel						enkel			"enkelenkel"				1	"orel_enenMD";
+ elleboog				heup			"elleboogheup"				enkel						oor			"enkeloor"					2	"elhp_enorMD";
+ oor						heup			"oorheup"					schouder					schouder 	"schouderschouder"		1	"orhp_scscMD";
+ elleboog				enkel			"elleboogenkel"			schouder					schouder		"schouderschouder"		1	"elen_scscMD";
+#groep4
+ oor						oor			"ooroor"						enkel						enkel			"enkelenkel"				1	"oror_enenHD";
+ schouder				enkel			"schouderenkel"			heup						heup			"heupheup"					1	"scen_hphpMDg";
+ elleboog				enkel			"elleboogenkel"			heup						heup			"heupheup"					1	"elen_hphpMDg";
+ oor						enkel			"oorenkel"					heup						heup			"heupheup"					1	"oren_hphpMDg";
+ 
+ 
+};

@@ -1,0 +1,25 @@
+# Template Trials 
+
+# Aanbieden van paren van lichaamsdelen voor een trial
+trial {
+		trial_type = first_response;
+		sound beep; code = "beep"; 
+		nothing {}; delta_time = 1100; code = "begin1"; 
+		sound $zin11;  
+		nothing {}; delta_time = 1000;
+		sound $zin12; code = $zin1code; 
+		nothing {};  code = "end1"; #delta_time = 1000;
+		nothing {}; delta_time = 1500; code = "begin2"; 
+		sound $zin21;  
+		nothing {}; delta_time = 1000; 
+		sound $zin22; code = $zin2code; 
+		nothing {};  code = "end2"; 
+		nothing {}; delta_time = 10;code = $trialcode; 
+		target_button = $antw;    # subject should press button 2
+		nothing {}; delta_time = 10;
+		code = $antw;
+		nothing {}; delta_time = 4000; code = "end_trial";
+};
+
+
+#End
